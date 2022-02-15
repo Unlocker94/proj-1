@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Quintessential&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Comforter&family=Quintessential&family=Shizuru&display=swap');
+body{
+    background-image: url(../img/sangue.jpg);
+    background-size: cover;
+    font-family: 'akaya telivigala';
+    color: white;
+}
+.texto{
+    letter-spacing: 2px;
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.topico{
+    letter-spacing: 2px;
+    text-align: justify;
+    padding-left: 47%;
+    padding-right: 20%;
+}
+img{
+    width: 30%;
+    height: 30%;
+    
+}
+#titulo{
+    text-align: center;
+    font-size: 5rem;
+}
+
+footer{
+    padding-top: 80%;
+}
+#depoimentos {
+    width: 20%;
+    background: #222;
+    color: #eee;
+    padding: 50px;
+    text-align: center;
+}
+#depoimentos2 {
+    width: 20%;
+    background: #222;
+    color: #eee;
+    padding: 50px;
+}
+#depoimentos3 {
+    width: 20%;
+    background: #222;
+    color: #eee;
+    padding: 50px;
+}
+#depoimentos4 {
+    width: 20%;
+    background: #222;
+    color: #eee;
+    padding: 50px;
+}
+#depoimentos-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.depoimento h3{
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.depoimento .depoimento-image {
+    height: 200px;
+    width: 198px;
+    border-radius: 50%;
+    margin: 15px;
+}
+#navbar-item a:nth-child(2) {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
